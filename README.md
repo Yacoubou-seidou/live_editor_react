@@ -48,8 +48,6 @@
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - [x] Created a web app using react-redux
@@ -59,16 +57,6 @@
 - [x] Used React hooks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [coming soon](#)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -117,8 +105,6 @@ npm run build
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Yacoubou Seidou**
@@ -126,8 +112,6 @@ npm run build
 - GitHub: [@Yacoubou-seidou](https://github.com/Yacoubou-seidou)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -140,8 +124,6 @@ npm run build
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -150,29 +132,13 @@ Feel free to check the [issue page](https://github.com/Yacoubou-seidou/live_edit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this feel free to follow me on github and give this project a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[How_to_start]**
-
-  - [Register_for_a_full_stack_program_like_Microverse]
-
-- **[How_to_contact_you]**
-
-  - [Follow_me_on_Github]
- -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
