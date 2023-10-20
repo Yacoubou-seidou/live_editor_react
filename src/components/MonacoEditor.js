@@ -72,6 +72,7 @@ const MonacoEditor = () => {
     console.log(message);
     socket.emit('chat-message', message);
     messageInput.value = '';
+    displayChatMessage(message)
   };
 
   const displayChatMessage = message => {
@@ -82,13 +83,29 @@ const MonacoEditor = () => {
   };
 
   return (
-    <div>
-      <div id="editor" style={{ height: '400px' }} />
-      <button onClick={runCode}>Run Code</button>
-      <button onClick={clearConsole}>Clear Console</button>
-      <button onClick={sendMessage}>Send Message</button>
-      <div id="console" />
-      <div id="messageContainer" />
+    <div className='container'>
+      <div className='challenge'>
+        <h3 className="title">Challenge title</h3>
+        <p className="detail">
+          Write a program that show numbers form 1 to 5 in the console.
+        </p>
+      </div>
+      <div className="chatBox">
+        <div id="messageContainer" >
+          <input type="text"
+            id="messageInput"
+            placeholder="Type your message" />
+          <button onClick={sendMessage}>Send Message</button>
+        </div>
+      </div>
+      <div class="codeContainer">
+        <div id="editor" style={{ height: '400px' }} >
+          <button onClick={runCode}>Run Code</button>
+          <button onClick={clearConsole}>Clear Console</button>
+        </div>
+        <div id="console" >
+        </div >
+      </div>
     </div>
   );
 };
