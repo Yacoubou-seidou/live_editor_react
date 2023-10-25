@@ -2,7 +2,14 @@ import React from 'react'
 
 const Progress = () => {
   return (
-    <div>Progress</div>
+    <div>
+      <ul>
+        <li>Progress</li>
+        <li>point</li>
+        <li>Level</li>
+        <li>Badges</li>
+      </ul>
+    </div>
   )
 }
 
