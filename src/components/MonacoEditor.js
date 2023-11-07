@@ -7,11 +7,8 @@ const MonacoEditor = () => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    // Initialize socket connection
     const newSocket = io();
     setSocket(newSocket);
-
-    // Load Monaco Editor
     const editorInstance = monaco.editor.create(document.getElementById('editor'), {
       value: '',
       language: 'javascript',
